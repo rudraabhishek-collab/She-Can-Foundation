@@ -1,0 +1,187 @@
+        *{
+            margin:0;
+            padding:0;
+            box-sizing:border-box;
+            font-family:sans-serif;
+        }
+        body{
+            overflow-x:hidden;
+        }
+        .Navbar{
+            position:fixed;
+            width:100%;
+            top:0;
+            left:0;
+            padding:20px 60px;
+            background:rgba(0,0,0,0.3);
+            backdrop-filter:blur(10px);
+            z-index:1000;
+        }
+        .Navbar-content{
+            display:flex;
+            justify-content:space-between;
+            align-items:center;
+        }
+        .Logo{
+            color:white;
+            font-size:30px;
+            font-weight:bold;
+        }
+        .Navbar ul{
+            display:flex;
+            gap:35px;
+            list-style:none;
+        }
+        .Navbar ul li a{
+            text-decoration:none;
+            color:white;
+            font-size:18px;
+            transition:0.3s;
+        }
+        .Navbar ul li a:hover{
+            color:deeppink;
+        }
+        .Navbar-BTN{
+            width:160px;
+            height:45px;
+            border:none;
+            border-radius:8px;
+            background:deeppink;
+            color:white;
+            font-size:16px;
+            font-weight:bold;
+            cursor:pointer;
+            transition:0.3s;
+        }
+        .Navbar-BTN:hover{
+            transform:translateY(-4px);
+            background:#ff1493;
+        }
+        .Hero{
+            height:100vh;
+            background:
+            linear-gradient(rgba(0,0,0,0.6),
+            rgba(0,0,0,0.6)),
+            url('https://give.do/blog/wp-content/uploads/2022/01/banner-1-1.jpg');
+            background-size:cover;
+            background-position:center;
+            display:flex;
+            align-items:center;
+            padding-left:80px;
+        }
+        .Hero-content{
+            max-width:700px;
+        }
+        .Tagline{
+            color:deeppink;
+            font-size:22px;
+            margin-bottom:20px;
+            font-weight:bold;
+        }
+        .Mid{
+            color:white;
+            font-size:75px;
+            line-height:1.1;
+            margin-bottom:25px;
+        }
+        .Lower{
+            color:white;
+            font-size:20px;
+            line-height:1.7;
+            margin-bottom:35px;
+        }
+        .Hero-btn{
+            width:220px;
+            height:60px;
+            border:none;
+            border-radius:10px;
+            background-color:deeppink;
+            color:white;
+            font-size:18px;
+            font-weight:bold;
+            cursor:pointer;
+            transition:0.3s;
+        }
+        .Hero-btn:hover{
+            transform:translateY(-5px);
+            background:#ff1493;
+        }
+        .About{
+            padding:100px 80px;
+            background:#f5f5f5;
+            display:flex;
+            gap:60px;
+            align-items:center;
+        }
+        .About img{
+            width:500px;
+            border-radius:15px;
+            box-shadow:0 5px 20px rgba(0,0,0,0.2);
+        }
+        .About-text h1{
+            font-size:50px;
+            margin-bottom:20px;
+            color:#111;
+        }
+        .About-text p{
+            font-size:18px;
+            line-height:1.8;
+            color:#444;
+        }
+        .Impact{
+            padding:100px 80px;
+            background:white;
+            text-align:center;
+        }
+        .Impact h1{
+            font-size:50px;
+            margin-bottom:60px;
+        }
+        .Impact-cards{
+            display:flex;
+            justify-content:center;
+            gap:40px;
+            flex-wrap:wrap;
+        }
+        .Card{
+            width:250px;
+            padding:40px 20px;
+            background:#fff;
+            border-radius:15px;
+            box-shadow:0 5px 20px rgba(0,0,0,0.1);
+            transition:0.3s;
+        }
+        .Card:hover{
+            transform:translateY(-10px);
+        }
+        .Card h2{
+            color:deeppink;
+            font-size:45px;
+            margin-bottom:10px;
+        }
+        .Card p{
+            font-size:18px;
+        }
+        footer{
+            background:#111;
+            color:white;
+            text-align:center;
+            padding:30px;
+        }
+        @media(max-width:900px){
+            .Navbar ul{
+                display:none;
+            }
+            .Hero{
+                padding:40px;
+            }
+            .Mid{
+                font-size:50px;
+            }
+            .About{
+                flex-direction:column;
+            }
+            .About img{
+                width:100%;
+            }
+        }
