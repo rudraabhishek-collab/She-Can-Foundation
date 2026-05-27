@@ -1,3 +1,5 @@
+<img width="1470" height="804" alt="Screenshot 2026-05-27 at 3 48 03 PM" src="https://github.com/user-attachments/assets/a434ebe7-e70f-4cea-8d53-22d91cbd67ee" />
+
 # She Can Foundation - Frontend Internship Task
 A modern and responsive NGO landing page created for the She Can Foundation Frontend Development Internship Task.
 ## Overview
